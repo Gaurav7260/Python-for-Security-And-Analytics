@@ -116,7 +116,7 @@ Python-for-Security-And-Analytics/
     ├── Lesson-12-Exception-Handling-in-Python.md
     ├── Lesson-12-Exercise-Answers.md
     ├── Lesson-13-Modules-and-Packages-in-Python.md
-    └── Lesson-14-Debugging-and-Testing-in-Python.md
+    ├── Lesson-14-Debugging-and-Testing-in-Python.md
 └── Mini-Projects/
     └── Mini-SOC-Login-Detection/
         ├── README.md
