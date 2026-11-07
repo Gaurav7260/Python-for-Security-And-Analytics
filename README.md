@@ -39,7 +39,7 @@ The goal is to move beyond syntax and develop the ability to write useful script
 | 11 | File handling | Completed |
 | 12 | Exception handling | Completed |
 | 13 | Modules and packages | Completed |
-| 14 | Debugging and testing | Planned / Next |
+| 14 | Debugging and testing | Completed |
 
 Lesson notes: [Phase-1-Python-Fundamentals](./Phase-1-Python-Fundamentals/).
 
@@ -69,6 +69,21 @@ Planned practical areas:
 - Data visualization
 - Business and operational analysis projects
 
+## Mini Projects
+
+### Mini SOC Login Detection System
+
+A Python project that processes simulated authentication events, counts failed login attempts by IP, skips malformed records, logs processing activity, and flags IPs that meet a configurable threshold. Includes automated tests using `unittest`.
+
+Project files: [Mini-Projects/Mini-SOC-Login-Detection](./Mini-Projects/Mini-SOC-Login-Detection/).
+
+- [Project README](./Mini-Projects/Mini-SOC-Login-Detection/README.md)
+- [Detection script](./Mini-Projects/Mini-SOC-Login-Detection/login_detection.py)
+- [Unit tests](./Mini-Projects/Mini-SOC-Login-Detection/test_login_detection.py)
+- [Bug documentation](./Mini-Projects/Mini-SOC-Login-Detection/bug_documentation.md)
+
+All login events are simulated. The threshold is a learning rule and does not prove malicious activity.
+
 ## Tools and Environment
 
 - **Python 3**
@@ -85,7 +100,7 @@ Examples are designed to be adaptable to Google Colab and a local Python environ
 ```text
 Python-for-Security-And-Analytics/
 ├── README.md
-└── Phase-1-Python-Fundamentals/
+├── Phase-1-Python-Fundamentals/
     ├── Lesson-01-Introduction-and-Print.md
     ├── Lesson-02-Variables-and-Data-Types.md
     ├── Lesson-03-Type-Conversion-and-Input.md
@@ -100,7 +115,14 @@ Python-for-Security-And-Analytics/
     ├── Lesson-11-File-Handling-in-Python.md
     ├── Lesson-12-Exception-Handling-in-Python.md
     ├── Lesson-12-Exercise-Answers.md
-    └── Lesson-13-Modules-and-Packages-in-Python.md
+    ├── Lesson-13-Modules-and-Packages-in-Python.md
+    └── Lesson-14-Debugging-and-Testing-in-Python.md
+└── Mini-Projects/
+    └── Mini-SOC-Login-Detection/
+        ├── README.md
+        ├── login_detection.py
+        ├── test_login_detection.py
+        └── bug_documentation.md
 ```
 
 The structure will expand as new phases and projects are added.
@@ -132,9 +154,9 @@ cd Python-for-Security-And-Analytics
 
 ## Progress
 
-**Current progress:** Phase 1 lessons 01–13 completed.
+**Current progress:** Phase 1 lessons 01–14 completed.
 
-**Next topic:** Lesson 14 — Debugging and Testing in Python.
+**Next topic:** Phase 2 — Core Python and Data Handling.
 
 ---
 
